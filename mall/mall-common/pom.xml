@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>mall</artifactId>
-        <groupId>org.mall</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>mall</groupId>
+        <artifactId>com.mall</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.mall</groupId>
     <artifactId>mall-common</artifactId>
