@@ -1,9 +1,7 @@
 package com.mall.inventory.controller;
 
-import com.mall.entry.Product;
 import com.mall.inventory.entry.ProductInventory;
 import com.mall.inventory.mapper.ProductInventoryRepository;
-import org.hibernate.criterion.Example;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

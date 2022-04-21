@@ -1,6 +1,5 @@
 package com.mall.controller;
 
-import com.mall.entry.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
