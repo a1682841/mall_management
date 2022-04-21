@@ -1,7 +1,6 @@
 package com.mall.controller;
 
 
-import com.mall.entry.ResponseDTO;
 import com.mall.entry.User;
 import com.mall.mapper.MallUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

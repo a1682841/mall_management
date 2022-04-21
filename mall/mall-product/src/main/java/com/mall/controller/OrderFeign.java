@@ -1,6 +1,5 @@
 package com.mall.controller;
 
-import com.mall.entry.ResponseDTO;
 import com.mall.entry.SaleOrder;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
@@ -11,5 +10,5 @@ import org.springframework.web.bind.annotation.*;
 @FeignClient(value = "order-server",name = "order-server")
 public interface OrderFeign {
     @RequestMapping(value = "order/insert", method = RequestMethod.POST)
-    public ResponseEntity<ResponseDTO> insertOrder(@RequestBody SaleOrder saleOrder);
+    public ResponseEntity insertOrder(@RequestBody SaleOrder saleOrder);
 }

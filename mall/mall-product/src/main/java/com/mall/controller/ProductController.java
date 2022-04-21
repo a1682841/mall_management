@@ -2,7 +2,6 @@ package com.mall.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.mall.entry.Product;
-import com.mall.entry.ResponseDTO;
 import com.mall.entry.SaleOrder;
 import com.mall.mapper.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
